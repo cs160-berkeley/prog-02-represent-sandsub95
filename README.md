@@ -1,20 +1,19 @@
 # PROG 02: Represent!
 
-Briefly describe your app here.
+This is the Represent App for PROG 2 that takes locations and gives information about representatives. This submission is heavily incomplete, but later on when I get to finishing the app, I will push the final product.
 
 ## Authors
 
-FirstName LastName ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
+Sandeep Subramanian ([sandsub95@berkeley.edu](mailto:sandsub95@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See [video] (https://youtu.be/apLhIkK1Uo4)
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+See PDF
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Any other support
+* Lots of thanks to Stack Overflow, links provided in code.
