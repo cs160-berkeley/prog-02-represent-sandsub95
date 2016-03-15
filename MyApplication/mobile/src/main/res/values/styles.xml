@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--http://stackoverflow.com/questions/27610974/no-resource-found-that-matches-the-given-name-attr-colorprimary-->
+    <style name="MainTheme" parent="android:Theme.Holo.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

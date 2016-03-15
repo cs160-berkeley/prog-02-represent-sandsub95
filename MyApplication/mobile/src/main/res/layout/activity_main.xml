@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--RelativeLayout is good if everything is going to be aligned to the parent or an anchor view in some way,
+LinearLayout is good if everything needs to be aligned to each other.-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context="cs160.represent.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="246px"
+        android:gravity="center_horizontal"
+        android:paddingTop="80px"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="166px"
+            android:textColor="@color/primaryBlue"
+            android:text="REP"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="166px"
+            android:textColor="@color/primaryRed"
+            android:text="RESENT!"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:paddingTop="20px"
+        android:textSize="54px"
+        android:textColor="@color/midPurple"
+        android:gravity="center_horizontal"
+        android:text="Find out what our politicians are up to." />
+
+    <ImageView
+        android:layout_width="500px"
+        android:layout_height="220px"
+        android:src="@drawable/flag"
+        android:layout_marginTop="60px"
+        android:layout_marginBottom="40px"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="96px"
+            android:textColor="@color/primaryRed"
+            android:text="Who represents "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="96px"
+            android:textColor="@color/primaryBlue"
+            android:text="YOU?"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10px"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="96px"
+            android:textColor="@color/primaryRed"
+            android:text="Find out "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="96px"
+            android:textColor="@color/primaryBlue"
+            android:text="BELOW!"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/currloc"
+        android:layout_width="780px"
+        android:layout_height="200px"
+        android:textColor="@color/white"
+        android:background="@color/midPurple"
+        android:textSize="84px"
+        android:text="Use Current Location"
+        android:layout_marginTop="40px"
+        android:layout_gravity="center_horizontal"
+        android:tag="My"/>
+
+    <Button
+        android:id="@+id/zip"
+        android:layout_width="780px"
+        android:layout_height="200px"
+        android:textColor="@color/white"
+        android:background="@color/midPurple"
+        android:textSize="84px"
+        android:text="Enter ZIP"
+        android:layout_marginTop="40px"
+        android:layout_gravity="center_horizontal"
+        android:onClick="launchZip"
+        android:tag="00000"/>
+
+    <Button
+        android:id="@+id/shake"
+        android:layout_width="780px"
+        android:layout_height="200px"
+        android:textColor="@color/white"
+        android:background="@color/midPurple"
+        android:textSize="84px"
+        android:text="Shake!\n(Random)"
+        android:layout_marginTop="40px"
+        android:layout_gravity="center_horizontal"
+        android:onClick="getRandLoc"
+        android:tag="Random"/>
+
+</LinearLayout>
+
+<!--
+An unfinished idea that involves RelativeLayout. Replace in the
+top for all the parts that come between the Title parts and the
+buttons. Titled as Updated View 1 in Figma, created only because
+Jasper O'Leary didn't like original design. The only part that
+doesn't work according to design is the two centered text parts
+inside the rectangles on the flags. They are not in the right
+position.
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flag"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="540px"
+                android:layout_height="360px"
+                android:layout_marginTop="230px"
+                android:background="@color/secondRed"/>
+            <TextView
+                android:layout_width="540px"
+                android:layout_height="360px"
+                android:layout_marginTop="230px"
+                android:background="@color/secondBlue"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="820px">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="350px"
+                android:textColor="@color/white"
+                android:textSize="96px"
+                android:text="Who represents YOU?"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="350px"
+                android:textColor="@color/white"
+                android:textSize="96px"
+                android:text="Find out BELOW!"/>
+        </LinearLayout>
+    </RelativeLayout>
+-->

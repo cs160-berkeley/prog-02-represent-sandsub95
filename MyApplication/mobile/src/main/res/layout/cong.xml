@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="640px"
+    android:id="@+id/rep"
+    android:background="@color/primaryRed">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="480px">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="268px"
+            android:layout_height="360px"
+            android:layout_marginTop="84px"
+            android:layout_marginLeft="114px"/>
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="someone@someone.com"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="40px"
+            android:textSize="24px"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="www.someone.com"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="40px"
+            android:textSize="24px"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="600px"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="72px"
+            android:layout_marginTop="84px"
+            android:paddingRight="84px"
+            android:paddingLeft="84px"
+            android:text="Sen. John McCain"/>
+        <TextView
+            android:id="@+id/partydistrict"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="56px"
+            android:layout_marginTop="20px"
+            android:paddingRight="84px"
+            android:paddingLeft="84px"
+            android:text="R - AZ"/>
+        <TextView
+            android:id="@+id/lasttweet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="56px"
+            android:layout_marginTop="20px"
+            android:paddingRight="84px"
+            android:paddingLeft="84px"
+            android:text="Latest Tweet"/>
+        <Button
+            android:id="@+id/bgid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More Info -->"
+            android:textColor="@color/white"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+</LinearLayout>
