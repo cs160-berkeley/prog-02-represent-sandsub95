@@ -16,7 +16,7 @@ See PDF
 
 ## APK
 
-Found in side the application where the apk would be found in a normal application.
+Found in the application where the apk would be found in a normal application.
 
 ## Acknowledgments
 
